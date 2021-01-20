@@ -32,7 +32,7 @@ export default class TransactionScreen extends React.Component {
   }
 
   handleBarCodeScanned  = async ({type, data})=>{
-    const { buttonState} = this.state
+    const { buttonState } = this.state
 
     if(buttonState === "BookId"){
       this.setState({
